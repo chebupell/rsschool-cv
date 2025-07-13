@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header {
+    background-color: #ffff90;
+    height: 40px;
+    
+}
+
+nav {
+    margin-left: 55%;
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 100px;
+    align-items: center;
+    font-size: 150%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+img {
+    width: 20%;
+}
+
+.first-level-wrap {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.second-level-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.stripe {
+    width: 80%;
+    height: 20px;
+    background-color: #ffff90;
+    margin-left: 10%;
+    margin-top: 20px;
+}
+
+
+.telephone:before {
+    content: "\260E";
+}
+
+footer {
+    background-color: #ffff90;
+    height: 40px;
+    margin-bottom: 0;
+}
